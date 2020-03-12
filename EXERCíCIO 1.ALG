@@ -1,7 +1,7 @@
-Algoritmo "Exercício 1"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "ExercÃ­cio 1"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Aldo Henrique
-// Descrição   : Lista de Exercício 1
+// DescriÃ§Ã£o   : Lista de ExercÃ­cio 1
 // Autor(a)    : Aline Lopes da Silva
 // Data atual  : 10/03/2020
 Var
@@ -11,23 +11,23 @@ Var
 Inicio
 	escreval("digite um numero")
 	leia (n1)
-   m<-n1 mod 2
+  	m<-n1 mod 2
 
 	se (m=0) entao
-	escreval("esse numero é par")
+	escreval("esse numero Ã© par")
 	senao
 		se (m<>0) entao
-		escreval("esse numero é impar")
+		escreval("esse numero Ã© impar")
 		senao
 		fimse
-    fimse
-    se (m<0) entao
-    escreval("esse é um numero negativo")
-    senao
-         se(m>0)entao
-         escreval("esse numero é positivo")
-         fimse
-    fimse
+    	fimse
+    	se (m<0) entao
+    	escreval("esse Ã© um numero negativo")
+   	senao
+        	se(m>0)entao
+		escreval("esse numero Ã© positivo")
+        	fimse
+    	fimse
 
 
 
